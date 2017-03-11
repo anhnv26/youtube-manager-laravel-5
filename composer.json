@@ -8,6 +8,7 @@
         "php": ">=5.6.4",
         "alaouy/youtube": "dev-master",
         "barryvdh/laravel-debugbar": "^2.3",
+        "barryvdh/laravel-ide-helper": "^2.3",
         "fabpot/goutte": "^3.2",
         "laravel/framework": "5.4.*",
         "laravel/tinker": "~1.0"

@@ -18,3 +18,10 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', 'HomeController@index');
+
+Route::get('/home', 'HomeController@index');
+
+//Youtube API
+Route::get('/video/{video}', 'YoutubeController@video');
+Route::get('/download/', 'YoutubeController@download');
+Route::post('/video', 'YoutubeController@store');

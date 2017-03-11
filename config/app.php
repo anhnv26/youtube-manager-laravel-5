@@ -186,6 +186,11 @@ return [
          * Youtube API
          */
         Alaouy\Youtube\YoutubeServiceProvider::class,
+
+        /*
+         * Laravel Ide Helper
+         */
+        Barryvdh\LaravelIdeHelper\IdeHelperServiceProvider::class,
     ],
 
     /*
